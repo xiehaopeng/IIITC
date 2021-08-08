@@ -17,15 +17,15 @@ We provide a real-world video dataset of the pre-print paper 'IIITCNET: Intra- a
 There are 140 pairs of synchronized videos in this dataset. Each pair of videos includes a jitter video and a stabilized video after hardware stabilization. The length of each video is about 15-30 seconds and frames per second is 30. The resolution is 1920x1080.
 
 According to the motion type, jitter degree and challenging content, the dataset was divided into the following 9 categories:
-(1)simple. It only contains the linear motion of the lens, and the scene content is simple.
-(2)running. It has the violent up and down motion while shaking.
-(3)quick rotation. It contains blurring and distortion caused by the quick rotation of the lens
-(4)vehicle. The jitter from vehicle motion was added in videos.
-(5)parallax. It has big difference in the apparent position of an object viewed along two different lines of sight.
-(6)depth. The depth transformation in the video is discontinuous.
-(7)occlusion. It includes large-scale occlusion caused by close-up objects or obstacles.
-(8)crowd. It has a large number of moving objects in different motion states.
-(9)low-quality. This kind of video will cause feature extraction failures. It was divided into 4 sub-categories:dark, blur, noise and watermark.
+1. simple. It only contains the linear motion of the lens, and the scene content is simple.
+2. running. It has the violent up and down motion while shaking.
+3. quick rotation. It contains blurring and distortion caused by the quick rotation of the lens
+4. vehicle. The jitter from vehicle motion was added in videos.
+5. parallax. It has big difference in the apparent position of an object viewed along two different lines of sight.
+6. depth. The depth transformation in the video is discontinuous.
+7. occlusion. It includes large-scale occlusion caused by close-up objects or obstacles.
+8. crowd. It has a large number of moving objects in different motion states.
+9. low-quality. This kind of video will cause feature extraction failures. It was divided into 4 sub-categories:dark, blur, noise and watermark.
 
 
 ## Usage of this repo
