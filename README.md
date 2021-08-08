@@ -6,7 +6,6 @@ we show an example videos to compare our work with other methods.
 
 The video can be obtained [here](https://www.youtube.com/watch?v=RiOOc_clpjE) .
 
-
 ## Dataset
  ![dataset demo](./docs/dataset_demo.gif)
 
