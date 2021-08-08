@@ -1,8 +1,9 @@
-# IIITC
+# IIITCNET: Intra- and Inter-frame Iterative Temporal Convolutional Networks for Video Stabilization
 Official project page for paper, IIITCNET: Intra- and Inter-frame Iterative Temporal Convolutional Networks for Video Stabilization.
 
 we show an example videos to compare our work with other methods.
  ![result demo](./docs/result_demo.gif)
+
 The video can be obtained [here](https://www.youtube.com/watch?v=RiOOc_clpjE) .
 
 
@@ -46,10 +47,12 @@ After downloading, You need to modify the video path of the code in every ".py" 
 
 ### Training
 You need to modify the save path of the model, which is in the “./model” folder by default.
+
 ```python train_model.py```
 
 ### Testing
 Before testing, you can train the model yourself or use the model parameters we have trained. [our dataset](https://drive.google.com/drive/folders/1Zt0TvY7f4opXXxzyHsph0sPV9ufH0qkZ?usp=sharing)
+
 ```python test_model.py```
 
 ## Contact
